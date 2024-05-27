@@ -1,0 +1,118 @@
+footer{
+    overflow-x: hidden;
+}
+.float_left{
+    padding: 20px;
+    background-color: #2e2e2e;
+}
+footer .float_left a{
+    display: inline-block;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-size: 16px;
+    float: right;
+}
+footer .float_left a:hover{
+    border: 2px solid #e1bd85;
+    transition: .5s ease;
+} 
+.float_right{
+    background-color: #444444f3;
+}
+.awe-btn{
+    color: #fff;
+    background-color: #e1bd85;
+    border: 1px solid #e1bd85;
+    cursor: pointer;
+    line-height: normal;
+    padding: 8px 10px;
+    font-size: 12px;
+    min-width: 110px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.awe-btn:hover{
+    background-color: #fff;
+    color: #e1bd85;
+    border: 2px solid #e1bd85;
+}
+
+.main_footer{
+    background-color: #444;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+.main_footer .box_1{
+    margin-top: 40px;
+}
+.main_footer .box_1 a img{
+    max-width: 170px;
+    vertical-align: middle;
+    margin-left: 110px;
+}
+.main_footer .box_2{
+    margin-top: 40px;
+}
+.main_footer .box_2 .text p{
+    color: #afafaf;
+    font-size: 14px;
+}
+.main_footer .box_2 .text p a{
+    color: #afafaf;
+    text-decoration: none;
+}
+.main_footer .box_2 .text p a:hover{
+    color: #e1bd85;
+    text-decoration: underline;
+}
+.main_footer .box_2 i{
+    color: #fff;
+    font-size: 16px;
+}
+.main_footer .box_3{
+    margin-top: 40px;
+}
+.main_footer .box_3 li{
+    margin-left: -30px;
+    font-size: 14px;
+    padding: 5px 0;
+    color: #bdb7b7;
+}
+.main_footer .box_4{
+    margin-top: 40px;
+}
+.main_footer h5{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
+.bottom-footer{
+    background-color: #101010;
+    padding: 10px 0;
+    text-align: center;
+    color: #acacac;
+    font-size: 12.22px;
+    /* width: 100vw; */
+    width: 1380px;
+    margin-left: -20px;
+}
+.bottom-footer p{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1.7em;
+    letter-spacing: .02em;
+}
+.bottom-footer a{
+    text-decoration: none;
+}

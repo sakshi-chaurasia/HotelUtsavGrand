@@ -1,0 +1,67 @@
+
+/* Amenities START */
+.banner {
+    position: relative;
+    background-image: url(images/img-9.jpg);
+    height: 295px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 42px;
+    font-weight: 100;
+    font-family: 'Calibri';
+    margin: 160px 0px 0px 500px;
+}
+
+.section-room_detail{
+    padding-bottom: 100px;
+}
+.section-room_detail .heading{
+    margin: 0;
+    color: #444;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.accordion{
+    border: 2px solid #e1bd85;
+}
+.ui-accordion-header p{
+    background-color: #e1bd85;
+    color: #fff;
+    /* width: 1500px; */
+    padding: 5px 20px;
+    font-weight: normal;
+}
+.ui-accodion-content .row span{
+    vertical-align: middle;
+    font-size: large;
+    font-weight: bolder;
+}
+.guest-book_item{
+    width: 320px; 
+    height: 210px; 
+    background-color: #f9f9f9;
+    margin: 20px 0 8px;
+    padding: 10px;
+}
+.guest-book_item:hover{
+    border: 2px solid #e1bd85;
+}
+.box{
+    height: 222px;
+    display: inline-block;
+    width: 250px;
+    padding: 5px;
+    margin: 20px 0 0;
+}
+.box:hover{
+    border: 2px solid #e1bd85;
+}
+
+/* Amenities END */

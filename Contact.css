@@ -1,0 +1,162 @@
+
+/* Contact Page Start */
+
+.section-sub-banner {
+    padding-top: 100px;
+}
+
+.section-sub-banner {
+    background-image: url(images/abouthead.jpg);
+    height: 295px;
+}
+
+.section-sub-banner .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Calibri';
+}
+
+.sub-banner .text h2 {
+    margin-top: 0px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.sub-banner .text p {
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+body{
+    letter-spacing: .014rem;
+}
+.col-md-5{
+    position: relative;
+    min-height: 1;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contact .text h2 {
+    line-height: 1.5rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #444;
+    text-transform: uppercase;
+}
+
+.box-border {
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background: #e1bd85;
+}
+
+.contact .text p {
+    color: #444;
+    margin: 10px 0px;
+    font-size: 15px;
+    line-height: 1.428em;
+    letter-spacing: .02em;
+}
+
+.contact .text ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.contact .text ul li {
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.contact .text ul li i {
+    color: #e1bd85;
+    font-size: px;
+    margin-top: 20px;
+    vertical-align: middle;
+    fill: #444;
+}
+.section-contact .row .heading{
+    margin: 0;
+    color: #444;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1;
+    position: relative;
+    text-align: center;
+}
+.section-contact .row .right img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    margin-left: 200px;
+}
+.contact-form .row{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.field-text{
+    border: 2px solid #777;
+    width: 100%;
+    margin-top: 20px;
+    color: #444;
+}
+input[type="text"]{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+    font-size: 12px;
+}
+.field-textarea{
+    border: 2px solid #777;
+    width: 100%;
+    margin-top: 20px;
+    color: #444;
+}
+textarea{
+    background: none;
+    font-size: 14px;
+    vertical-align: middle;
+    background-color: #fff;
+    padding: 12px;
+}
+button.awe-btn {
+    padding: 10px 20px;
+    margin-top: 25px;
+}
+button.awe-btn.awe-btn-13 {
+    border: 2px solid #e1bd85;
+    background-color: #e1bd85;
+    color: #fff;
+}
+.section-contact .row button.awe-btn {
+    display: inline-block;
+    background: #e1bd85;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 180px;
+    text-align: center;
+}
+.section-contact .row button.awe-btn:hover{
+    border: 2px solid #e1bd85;
+    background-color: #fff;
+    color: #e1bd85;
+}
+/* Contact Page End*/

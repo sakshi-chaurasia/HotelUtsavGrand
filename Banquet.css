@@ -1,0 +1,319 @@
+
+/* Banquet & Lawns Start */
+.banner {
+    position: relative;
+    background-image: url(images/abouthead.jpg);
+    height: 295px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Calibri';
+    margin: 160px 0px 0px 480px;
+}
+.small-pic {
+    display: inline-block;
+}
+
+.picture {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    padding: -15px;
+}
+
+.small-pic .img-fluid {
+    height: 140px;
+    width: 220px;
+    margin: 3px auto;
+    padding: 2px;
+    border: 2px solid rgb(211, 153, 105);
+}
+
+.small-pic .img-fluid:hover {
+    transform: scale(1.1);
+
+}
+
+/* Banquet & Lawns End */
+
+/* Darbar Hall Start */
+.row .column {
+    height: 60px;
+    width: 95px;
+    margin: 5px 5px;
+}
+
+.container {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+    position: absolute;
+    top: 79.5%;
+    font-size: 14px;
+    height: 50px;
+    width: 64%;
+    background-color: rgba(8, 5, 5, 0.39);
+    padding: 10px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+.column img:hover {
+    border: 5px solid #e1bd85;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.greet {
+    border: 2px solid black;
+    text-align: center;
+    padding: 25px 35px 25px 35px;
+    height: auto;
+    width: 370px;
+    float: right;
+    margin-top: 80px;
+}
+
+.greet:hover {
+    border: 2px solid #e1bd85;
+    transition: .5s ease-in-out;
+}
+
+.nav_tab{
+    font-family: Calibri;
+    color: #444;
+}
+.side-nav {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    /* position: fixed; */
+    height: 50%;
+}
+.side-nav a {
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.192);
+    text-transform: uppercase;
+}
+.side-nav a.active {
+    color: #e1bd85;
+    transition: .5s ease;
+    border-bottom: 2px solid #e1bd85;
+}
+.main-content {
+    /* margin-left: 220px; */
+    padding: 15px 35px;
+    flex-grow: 1;
+    text-align: justify;
+}
+.tab-content {
+    display: none;
+}
+.tab-content p{
+    font-size: 14px;
+}
+.tab-content.active {
+    display: block;
+}
+#capacity .row .col-xs-6.col-lg-4{
+    display: inline-block;
+}
+#capacity .row .col-xs-6.col-lg-4 li{
+    width: 253px;
+    padding: 4px 0;
+    color: #444;
+}
+
+/* Darbar Hall End */
+
+
+/* Jalsa Hall Start */
+
+.captiion-container {
+    position: absolute;
+    top: 77.5%;
+    font-size: 16px;
+    height: 55px;
+    width: 57%;
+    background-color: rgba(8, 5, 5, 0.39);
+    padding: 10px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row .columnn {
+    height: 60px;
+    width: 95px;
+    margin: 6px 0px;
+    padding: 0px 5px;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    padding: 0%;
+    /* width: 16.66%; */
+}
+
+.column img:hover {
+    border: 5px solid #e1bd85;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+video {
+    vertical-align: baseline;
+}
+.main-content #overview img{
+    width: 330px;
+    float: right;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Jalsa Hall End */
+
+
+/* Satkar Hall Start */
+
+.captiion-container {
+    position: absolute;
+    top: 77.5%;
+    font-size: 16px;
+    height: 55px;
+    width: 57%;
+    background-color: rgba(8, 5, 5, 0.39);
+    padding: 10px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row .columnn {
+    height: 60px;
+    width: 95px;
+    margin: 6px 0px;
+    padding: 0px 5px;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    padding: 0%;
+    /* width: 16.66%; */
+}
+
+.column img:hover {
+    border: 5px solid #e1bd85;
+}
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.gret {
+    text-align: center;
+    padding: 25px 35px 25px 35px;
+    height: auto;
+    width: 370px;
+    float: right;
+    margin-top: 80px;
+}
+
+.gret:hover {
+    border: 2px solid #e1bd85;
+    transition: .5s ease-in-out;
+}
+
+/* Satkar Hall End */

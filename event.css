@@ -1,0 +1,40 @@
+
+/* Event Start */
+.banner {
+    position: relative;
+    background-image: url(images/abouthead.jpg);
+    height: 295px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Calibri';
+    margin: 160px 0px 0px 500px;
+}
+
+.section-about {
+    background-color: #fff;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+.section-about .col-md-7 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.section-about .col-md-4 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+/* Event End */

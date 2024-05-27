@@ -1,0 +1,66 @@
+
+/* Restaurant Page START */
+
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Calibri';
+    margin: 160px 0px 0px 500px;
+}
+
+.section-restro .text-content{
+    margin: 30px 0 0;
+    padding: 0px 15px;
+}
+.section-restro .img img{
+    padding: 4px;
+    border: 2px solid #e1bd85;
+}
+.section-restro .text-content h2{
+    font-weight: bold;
+    font-size: 36px;
+    color: #444444;
+}
+.section-restro .text-content p{
+    font-size: 15px;
+    color: #444;
+    text-align: justify;
+}
+.restro-gallery h2{
+    text-align: center;
+    color: #444;
+    margin: 0 0 40px;
+}
+.restro-gallery .list-inline li{
+    display: inline-block;
+    padding: 7px 15px;
+    font-weight: 500;
+}
+.restro-gallery .list-inline li.active{
+    background-color: #e1bd85;
+    color: #fff;
+}
+.restro-gallery ul li:hover{
+    background-color: #e1bd85;
+    color: #fff;
+    font-weight: 500;
+}
+.gallery-isotope{
+    height: 400px;
+}
+.restro-gallery .row{
+    overflow: hidden;
+    display: inline-block;
+}
+.gimg{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.gimg div img{
+    width: 170px;
+    height: auto;
+}
+/* Restaurant Page END */

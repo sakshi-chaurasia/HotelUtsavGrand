@@ -1,0 +1,509 @@
+/* Room & Suite Start*/
+
+.banner {
+    position: relative;
+    background-image: url(images/room-head-2.jpg);
+    height: 295px;
+    width: 600px;
+    opacity: 0.9;
+}
+
+.a2 {
+    color: #fff;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Calibri';
+    margin: 160px 0px 0px 500px;
+}
+
+section {
+    position: relative;
+}
+
+.section-room {
+    /* padding-top: 45px; */
+    padding-bottom: 100px;
+}
+
+.section-room .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.room-detail .room-type {
+    margin-top: 100px;
+}
+
+.room-type {
+    font-size: 0;
+    overflow: hidden;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+}
+
+.room-type.img-right .imgg {
+    left: 33.3333%;
+}
+
+.room-type.img-right .text {
+    right: 66.6667%;
+}
+
+.room-type .img {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.6667%;
+}
+
+.room-type .imgg {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 15px;
+    /* padding-right: 15px; */
+    width: 66.6667%;
+}
+
+.room-type .imgg:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 40px;
+    bottom: 40px;
+    right: 710px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.room-type .imgg:after {
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    top: 50%;
+    position: absolute;
+    content: '';
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.room-type .imgg img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.room-type .img:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 40px;
+    top: 40px;
+    bottom: 40px;
+    right: 15px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.room-type .img:after {
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    top: 50%;
+    position: absolute;
+    content: '';
+    opacity: 0;
+    z-index: 1;
+    pointer-events: none;
+    box-sizing: border-box;
+}
+
+.room-type:hover .img:after {
+    opacity: .7;
+    top: 0;
+}
+
+.room-type .img img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.room-type .text {
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: calc(33.3333% - 1px);
+}
+
+.room-type .text h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'Montserrat';
+}
+
+.room-type .text h2:hover {
+    color: #e1bd85;
+    transition: .4s ease;
+}
+
+.room-type .text p {
+    color: #666666;
+    margin-bottom: 0;
+    font-size: 13px;
+    margin: 30px;
+}
+
+.room-type .col-md-6 {
+    width: 50%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.room-type .text a{
+    text-decoration: none;
+}
+.room-type .text .a-btn{
+    padding: 10px 20px; 
+    margin-top: 35px;
+    margin-right: 50px;
+}
+.a-btn.a-btn-13{
+    border: 2px solid #e1bd85;
+    background-color: #e1bd85;
+    color: white;
+}
+.a-btn.a-btn-13:hover {
+    border: 2px solid #e1bd85;
+    background-color: #fff;
+    color: #e1bd85;
+}
+.a-btn {
+    display: inline-block;
+    background: none;
+    white-space: nowrap;
+    text-transform: uppercase;
+    cursor: pointer;
+    min-width: 110px;
+    text-align: center;
+}
+
+/* Room & Suite end*/
+
+/* Deluxe Room Start */
+
+.section-room-detail .picc {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+    padding: 5px 10px;
+    top: 308px;
+    height: 40px;
+    width: 600px;
+    border-bottom: 1px solid #444;
+}
+
+.room-detail_tab {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.room-detail_tab .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.room-detail_tab .row::before {
+    display: table;
+    content: "";
+}
+
+.room-detail_tab .row .col-md-3 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.room-detail_tab-header {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-right: 70px;
+}
+
+.room-detail_tab-header li {
+    border-bottom: 2px solid #e4e4e4;
+    position: relative;
+}
+
+.room-detail_tab-header li.active a {
+    color: #e1bd85;
+}
+
+.active {
+    background-color: transparent;
+}
+
+.room-detail_tab-header li a {
+    padding: 30px 0 10px 0;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+}
+
+.room-detail_tab-header li:active a,
+.room-detail_tab-header li:hover a {
+    color: #e1bd85;
+}
+
+.room-detail_tab-header li.active a:before {
+    width: 100%;
+}
+
+.room-detail_tab-header li a::before {
+    height: 2px;
+    content: '';
+    width: 0;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    background-color: #e1bd85;
+}
+
+.room-detail_tab .row .col-md-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.room-detail_tab-content {
+    padding-top: 20px;
+    position: relative;
+}
+
+.room-detail_tab-content::before {
+    border-left: 1px solid #e4e4e4;
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    bottom: 0;
+}
+
+.tab-content>.active.in {
+    display: block;
+    visibility: visible;
+}
+
+.tab-content>.fade {
+    opacity: 1;
+}
+
+.tab-content>.tab-pane {
+    display: none;
+    visibility: hidden;
+}
+
+.room-detail_overview,
+.room-detail_amenities {
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.room-detail_package .room-package_item:first-child {
+    padding-top: 0;
+}
+
+.room-detail_package .room-package_item {
+    padding: 25px 0;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.room-package_item .text {
+    padding-right: 170px;
+    overflow: hidden;
+    position: relative;
+    min-height: 70px;
+}
+
+.room-detail_rates {
+    padding-bottom: 20px;
+}
+
+.room-detail_rates table {
+    width: 100%;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.room-detail_rates table thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+.room-detail_rates table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid;
+    vertical-align: top;
+}
+
+.room-detail_rates table td img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.room-detail_rates table td ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.room-detail_rates table td ul li {
+    padding: 2px 0;
+    color: #555;
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+}
+
+.fa-angle-double-right::before {
+    content: \f101;
+}
+
+.fade {
+    opacity: 1;
+    transition: opacity 5s linear;
+}
+
+.room-detail_tab .row::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+/* Deluxe Room end */
+
+/* Superiors & Presidential Room START */
+
+.nav_tab{
+    font-family: Calibri;
+    color: #444;
+}
+.side-nav {
+    width: 200px;
+    background-color: #fff;
+    padding: 20px;
+    /* position: fixed; */
+    height: 50%;
+}
+.side-nav a {
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.192);
+    text-transform: uppercase;
+}
+.side-nav a.active {
+    color: #e1bd85;
+    transition: .5s ease;
+    border-bottom: 2px solid #e1bd85;
+}
+.main-content {
+    margin-left: 220px;
+    padding: 15px 35px;
+    flex-grow: 1;
+    text-align: justify;
+}
+.tab-content {
+    display: none;
+}
+.tab-content p{
+    font-size: 14px;
+}
+.tab-content.active {
+    display: block;
+}
+#amenities .row .col-xs-6.col-lg-4{
+    display: inline-block;
+}
+#amenities .row .col-xs-6.col-lg-4 li{
+    width: 253px;
+    padding: 4px 0;
+    color: #444;
+}
+#package a{
+    text-decoration: none;
+    color: #444;
+}
+.policies{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+}
+.text p{
+    font-size: 14px;
+    line-height: 1.428em;
+}
+#rates table{
+    width: 100%;
+}
+#rates table th{
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    padding: 15px 20px;
+    text-align: left;
+}
+#rates table td{
+    padding: 15px 20px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+}
+#rates table td ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 10px;
+}
+#rates table td ul li{
+    padding: 2px 0;
+    color: #555;
+}
+
+/* Superiors & Presidential Room END */
